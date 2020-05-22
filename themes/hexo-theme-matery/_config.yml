@@ -67,7 +67,7 @@ dream:
   enable: true
   showTitle: true
   title: 我的梦想
-  text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
+  text: 世界和平，生活安定！
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -125,7 +125,7 @@ indexbtn:
   enable: true
   name: Github
   icon: fab fa-github-alt
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/SakuraGaara/sakuragaara.github.io
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
@@ -218,21 +218,21 @@ profile:
 myProjects:
   enable: true
   data:
-    hexo-theme-matery:
-      icon: fas fa-file-alt
-      iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/blinkfox/hexo-theme-matery
-      desc: This is a Hexo blog theme with 'Material Design' and responsive design.
-    Fenix:
-        icon: fas fa-database
-        iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/blinkfox/fenix
-        desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
-    typora-vue-theme:
-        icon: fas fa-file-alt
-        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/blinkfox/typora-vue-theme
-        desc: This is a typora theme inspired by Vue document style.
+  #   hexo-theme-matery:
+  #     icon: fas fa-file-alt
+  #     iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
+  #     url: http://github.com/blinkfox/hexo-theme-matery
+  #     desc: This is a Hexo blog theme with 'Material Design' and responsive design.
+  #   Fenix:
+  #       icon: fas fa-database
+  #       iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
+  #       url: https://github.com/blinkfox/fenix
+  #       desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
+  #   typora-vue-theme:
+  #       icon: fas fa-file-alt
+  #       iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+  #       url: https://github.com/blinkfox/typora-vue-theme
+  #       desc: This is a typora theme inspired by Vue document style.
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
@@ -342,7 +342,7 @@ minivaline:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/SakuraGaara
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -520,7 +520,7 @@ subtitle:
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
   sub1: 从来没有真正的绝境, 只有心灵的迷途
-  sub2: Never really desperate, only the lost of the soul
+  sub2: Men always remember love because of romance only.
 
 # 手机二级菜单.
 navMenu:
@@ -538,7 +538,7 @@ banner:
 
 #ICP备案信息尾部显示
 icp:
-  enable: false
+  enable: false 
   url: # 备案链接
   text: # 备案信息
 

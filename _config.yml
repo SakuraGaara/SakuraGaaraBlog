@@ -104,7 +104,7 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
-  repo: https://github.com/SakuraGaara/sakuragaara.github.io
+  repo: 'https://github.com/SakuraGaara/sakuragaara.github.io.git'
 
 search:
   path: search.xml
@@ -113,3 +113,13 @@ search:
 abbrlink:
   alg: crc16 #算法选项：crc16丨crc32
   rep: dec #输出进制：dec为十进制，hex为十六进制
+
+feed:
+  type: atom
+  path: atom.html
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim:
+  order_by: -date
