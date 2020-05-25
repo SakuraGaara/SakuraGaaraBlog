@@ -16,9 +16,9 @@ menu:
   About:
     url: /about
     icon: fas fa-user-circle
-    #Contact:
-    #url: /contact
-    #icon: fas fa-comments
+  Contact:
+    url: /contact
+    icon: fas fa-comments
   Friends:
     url: /friends
     icon: fas fa-address-book
@@ -134,10 +134,10 @@ socialLink:
   github:  https://github.com/SakuraGaara
   email: mic0601@163.com
   facebook: https://www.facebook.com/mic0601
-  twitter: # https://twitter.com/xxx
+  #twitter: # https://twitter.com/xxx
   qq: 547088188
-  weibo: # https://weibo.com/xxx
-  zhihu: # https://www.zhihu.com/xxx
+  #weibo: # https://weibo.com/xxx
+  #zhihu: # https://www.zhihu.com/xxx
   rss: true # true、false
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.

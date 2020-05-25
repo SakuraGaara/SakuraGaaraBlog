@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -118,10 +118,10 @@ abbrlink:
 
 feed:
   type: atom
-  path: atom.html
+  path: atom.xml
   limit: 20
   hub:
   content:
   content_limit: 140
-  content_limit_delim:
+  content_limit_delim: ' '
   order_by: -date

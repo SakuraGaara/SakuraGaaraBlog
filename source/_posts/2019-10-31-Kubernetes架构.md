@@ -9,7 +9,7 @@ date: 2019-10-31 00:00:00
 
 ## Kubernetes的总架构图
 
-![master的工作流程图](/images/img/20191031/kubernetes架构图.png) 
+![master的工作流程图](/images/img/20191031/Kubernetes-schema.png) 
 <!--more-->
 
 ## Kubernetes各个组件
@@ -17,7 +17,7 @@ date: 2019-10-31 00:00:00
 ### kube-master[控制节点]
 
 - master的工作流程图
-![master的工作流程图](/images/img/20191031/master的工作流程图.png) 
+![master的工作流程图](/images/img/20191031/master-process.png) 
 
 1. Kubecfg将特定的请求，比如创建Pod，发送给Kubernetes Client。
 2. Kubernetes Client将请求发送给API server。
@@ -51,7 +51,7 @@ date: 2019-10-31 00:00:00
 ### kube-node[服务节点]
 
 - kubelet结构图
-![kubelet结构图](/images/img/20191031/kubelet结构图.png) 
+![kubelet结构图](/images/img/20191031/kubelet-schema.png) 
 
 #### Kubelet[节点上的Pod管家]
 - 负责Node节点上pod的创建、修改、监控、删除等全生命周期的管理
