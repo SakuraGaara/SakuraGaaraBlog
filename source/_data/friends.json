@@ -16,5 +16,11 @@
     "introduction": "这个matery主题很Nice！",
     "url": "https://www.kubernetes.org.cn/k8s",
     "title": "Kubernetes中文社区"
+},{
+    "avatar": "",
+    "name": "从Docker到Kubernetes进阶",
+    "introduction": "Nothing in the world can take the place of Persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts. Persistence and Determination alone are omnipotent. The slogan “Press On” has solved and will always solve the problems of the human race.",
+    "url": "https://www.qikqiak.com/k8s-book/",
+    "title": "从Docker到Kubernetes进阶"
 }
 ]
