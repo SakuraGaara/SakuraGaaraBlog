@@ -24,7 +24,8 @@ def register():
 	if request.method == 'POST':
 		user=User()
 		user.nickname = request.args['nickname']
-		user.phone_number = request.args['phone_number']
+		user.email = request.args['email']
+        user.password = request.args['password']
 		db.session.add(user)
 		db.session.commit()
 		redirect(url_for('web.login'))
